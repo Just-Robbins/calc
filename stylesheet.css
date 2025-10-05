@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.calculator {
+    width: 350px;
+    height: 500px;
+    background-color: grey;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+}
+
+.screen {
+    margin-top: 10px;
+    height: 100px;
+    width: 95%;
+    background-color: white;
+    justify-self: center;
+}
+
+.numpad {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: aqua;
+    height: 370px;
+    width: 95%;
+}
+
+.operators {
+    height: 370px;
+    background-color: red;
+    width: 100px;  
+}
