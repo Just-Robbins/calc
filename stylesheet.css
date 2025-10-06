@@ -4,7 +4,6 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    padding: 0;
     background-color: black;
 }
 
@@ -12,31 +11,33 @@ body {
     width: 350px;
     height: 500px;
     background-color: grey;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    box-sizing: border-box;
+    gap: 10px;
+    border-radius: 10px;
 }
 
 .controls {
     display: flex;
     justify-content: center;
+    flex: 1;
+    gap: 10px;
 }
 
 .screen {
-    margin-top: 10px;
     height: 100px;
-    width: 95%;
     background-color: white;
     justify-self: center;
 }
 
 .numpad {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    background-color: aqua;
-    height: 370px;
-    width: 95%;
+    background-color: white;
+    width: 80%;
 }
 
 .operators {
-    height: 370px;
-    background-color: red;
-    width: 100px;  
+    background-color: white;
+    width: 20%;
 }
