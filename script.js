@@ -27,10 +27,10 @@ function divide(num1, num2) {
 document.addEventListener("keypress", function(event) {
     if (event.key >= '0' && event.key <= '9') {
         determineInputType(true, event.key);
-    } else if (['+', '-', '*', '/', '='].includes(event.key)) {
+    } else if (['+', '-', '*', '/', '=', 'Enter'].includes(event.key)) {
         determineInputType(false, event.key);
     }
-});
+}); 
 
 
 function determineInputType(numberKeyBool, value) {
