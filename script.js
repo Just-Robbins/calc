@@ -91,7 +91,7 @@
             }
             return;
         }
-        
+
         if (secondValue === '' && firstValue === '') {
             return;
         }
@@ -106,10 +106,10 @@
 
     function concatenateInputs (userInput) {
         if (result !== '' && currentOperator === '') {
-                resetCalc();
-                firstValue = userInput;
-                updateMainValueDisplay(firstValue);
-                return;
+            resetCalc();
+            firstValue = userInput;
+            updateMainValueDisplay(firstValue);
+            return;
         }
 
         if (currentOperator === '') {
